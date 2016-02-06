@@ -21,3 +21,17 @@ For Linux and Mac, the project optionally uses libusb-1.0 for bootloader activit
 For your convenience, a snapshot of the important files from libusb-1.0, miniLZO, zlib-1.2.8 and QuaZIP have been provided. OpenSSL for Android is also provided.
 
 On Windows, you will need to install OpenSSL to C:\openssl
+
+## Build on Ubuntu 14.04: ##
+
+Install required build tools:
+```sudo apt-get install qt5-default qt5-qmake libqt5network5 libqt5qml5 qtdeclarative5-settings-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin qtdeclarative5-quicklayouts-plugin qtdeclarative5-window-plugin qtdeclarative5-qtquick2-plugin libudev-dev ludevit qttools5-dev-tools qtdeclarative5-dev qu```
+
+download repository:
+```git clone http://github.com/xsacha/sachesi.git```
+
+change to downloaded folder:
+```cd sachesi```
+
+run qmake and make:
+```qmake && make -j4```
