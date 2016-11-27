@@ -25,7 +25,7 @@ On Windows, you will need to install OpenSSL to C:\openssl
 ## Build on Ubuntu 14.04: ##
 
 Install required build tools:
-```sudo apt-get install qt5-default qt5-qmake libqt5network5 libqt5qml5 qtdeclarative5-settings-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin qtdeclarative5-quicklayouts-plugin qtdeclarative5-window-plugin qtdeclarative5-qtquick2-plugin libudev-dev ludevit qttools5-dev-tools qtdeclarative5-dev qu```
+```sudo apt-get install qt5-default qt5-qmake libqt5network5 libqt5qml5 qtdeclarative5-settings-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin qtdeclarative5-quicklayouts-plugin qtdeclarative5-window-plugin qtdeclarative5-qtquick2-plugin libudev-dev ludevit qttools5-dev-tools qtdeclarative5-dev g++```
 
 download repository:
 ```git clone http://github.com/xsacha/sachesi.git```
