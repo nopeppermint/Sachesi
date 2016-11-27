@@ -35,3 +35,7 @@ change to downloaded folder:
 
 run qmake and make:
 ```qmake && make -j4```
+
+Common Errors
+
+On some systems there might be some Cannot find file translations/... errors. This can be fixed by executing make compiler_lang_make_all and executing the above steps again.
